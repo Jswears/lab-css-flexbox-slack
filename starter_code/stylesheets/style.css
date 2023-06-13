@@ -8,3 +8,548 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: #540b51;
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+}
+
+img:not(.google-logo, .little-logo, .little-arrow) {
+  width: 200px;
+}
+
+.nav-bar {
+  height: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.nav-bar div > button {
+  background: #540b51;
+
+  box-shadow: 0px 0px 0px transparent;
+
+  border: 0px solid transparent;
+
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.nav-bar button img {
+  width: 20px;
+  padding-right: 20px;
+}
+
+.nav-bar img {
+  width: 100px;
+}
+
+#slack-logo {
+  padding-left: 20px;
+}
+.desktop {
+  display: none;
+}
+
+.container {
+  align-items: center;
+  gap: 20px;
+}
+
+.yellow {
+  color: #ecb12f;
+}
+
+.hero-section p {
+  margin-top: 5px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.hero-section {
+  color: #fff;
+  height: 80vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#google-logo {
+  height: 20px;
+  width: 20px;
+  padding: 9px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.centered {
+  position: absolute;
+  left: 28.6%;
+}
+
+.hero-btn > button {
+  width: 320px;
+  height: 45px;
+  border: 0px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.hero-image {
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 145.8%;
+  height: 120%;
+}
+
+.blue-color {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.image-section {
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section p {
+  letter-spacing: 0.8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.image-group-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-group-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.image-group-1 > img {
+  max-width: 54px;
+  height: auto;
+}
+.image-group-2 > img {
+  max-width: 154px;
+  height: auto;
+}
+
+.ivory-background {
+  background-color: #f3eae2;
+}
+
+#team-together {
+  padding-top: 20px;
+}
+
+#team-together div {
+  padding-right: 20px;
+}
+
+#team-together div img {
+  width: 100%;
+  height: auto;
+}
+
+.team {
+  gap: 1.5rem;
+  padding: 1.4rem;
+}
+
+.team h2 {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: #191817;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.team p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+
+.link-style {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #2e71a6;
+}
+
+.section-styling {
+  gap: 1.5rem;
+  padding: 1.4rem;
+}
+
+.section-styling h2 {
+  font-size: 2.3rem;
+  width: 90%;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding-top: 20px;
+  color: #191817;
+}
+
+.section-styling p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+}
+
+.auto-size img {
+  width: 100%;
+  height: auto;
+}
+
+.section-height {
+  height: 80vh;
+}
+
+#rely-on-slack {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+#rely-on-slack div h3 {
+  width: 90%;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#rely-on-slack p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+}
+
+#rely-on-slack button {
+  width: 320px;
+  height: 45px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #540b51;
+}
+
+.btn-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.purple-color {
+  background-color: #540b51;
+  color: #fff;
+}
+
+.white-box {
+  background-color: #fff;
+  color: #540b51;
+}
+
+#rely-on-slack ul li p span {
+  font-size: 5rem;
+  color: #540b51;
+  font-weight: bolder;
+}
+
+.reduce-width {
+  width: 60%;
+  font-weight: bolder;
+  text-align: center;
+  margin: auto;
+}
+
+.cta {
+  height: 40vh;
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cta h3 {
+  font-size: 3rem;
+  text-align: center;
+  width: 90%;
+  color: white;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}
+
+.cta button {
+  width: 320px;
+  height: 45px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+}
+
+footer {
+  background-color: #fff;
+  height: 97vh;
+}
+
+#footer-slack-logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 54px;
+  height: 54px;
+}
+
+.main-footer {
+  display: flex;
+  gap: 30px;
+  padding-left: 10px;
+}
+
+.footer-flex ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.end-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.end-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: bolder;
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+.social-network {
+  padding-bottom: 30px;
+}
+
+.social-network ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.little-logo {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.footer-flex ul {
+  margin-top: 20px;
+  color: #454245;
+}
+
+.main-footer {
+  border-bottom: 1px solid rgba(173, 255, 47, 0.4);
+  padding-bottom: 50px;
+}
